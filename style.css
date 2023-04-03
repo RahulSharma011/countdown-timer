@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Proza+Libre&family=Roboto:wght@100&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+#heading{
+    color: rgb(77, 193, 255);
+    font-size: 50px;
+}
+.main{
+    background: url('image/pexels-pixabay-302769.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    color:white;
+    flex-direction: column;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: 'Proza Libre', sans-serif;
+}
+.col{
+    margin-top: 100px;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.col div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+input{
+    width: 60%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 90px;
+}
+label{
+    font-size: 20px;
+}
